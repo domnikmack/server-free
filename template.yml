@@ -42,7 +42,7 @@ Resources:
   GetHelloMIS:
     Type: AWS::Serverless::Function
     Properties:
-      Handler: mis.handler
+      Handler: mis.get
       Runtime: nodejs8.10
       Role:
         Fn::GetAtt:
